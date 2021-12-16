@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Uvicorn": "server":"is":"running"}
+    return {"Uvicorn is running"}
 
 
 @app.get("/items/{item_id}")
